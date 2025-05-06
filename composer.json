@@ -1,0 +1,24 @@
+{
+    "name": "mvc/antonio",
+    "description": "A project-oriented studying on MVC",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mvc\\Antonio\\": "src/",
+            "Support\\": "Support/",
+            "Mvc\\Antonio\\Controller\\": "Controller/",
+            "Mvc\\Antonio\\Templates\\": "Templates/",
+            "Routes\\": "Routes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
